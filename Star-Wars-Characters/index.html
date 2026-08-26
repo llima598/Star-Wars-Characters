@@ -1,64 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore personagens de Star Wars, veja seus detalhes e navegue pela galeria.">
     <title>Star Wars Characters | Lucas Lima</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/millennium-falcon.png" type="image/x-icon">
 </head>
 <body>
- <header>
+    <header>
+        <a href="./index.html" aria-label="Página inicial Star Wars Characters">
+            <div class="logo">
+                <img src="./assets/star-wars-logo.png" alt="Star Wars" class="logo-img">
+                <span class="logo-text">Characters</span>
+            </div>
+        </a>
 
-    <a href="./index.html">
-        <div class="logo">
-        <img src="./assets/star-wars-logo.png" alt="logo" class="logo-img"/>
-        <span class="logo-text">Characters</span>
-    </div>
-    </a>
-    
+        <nav class="social-media" aria-label="Redes sociais">
+            <a href="https://www.linkedin.com/in/lucas-lima-231248191/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Lucas Lima">
+                <i class="fa-brands fa-linkedin-in icon" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/llima598" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Lucas Lima">
+                <i class="fa-brands fa-github icon" aria-hidden="true"></i>
+            </a>
+        </nav>
+    </header>
 
-    <div class="social-media">
+    <main class="main-container">
+        <h1>Conheça todos os personagens de Star Wars em um só lugar</h1>
 
-        <a href="https://www.linkedin.com/in/lucas-lima-231248191/" target="_blank">
-          <i class="fa-brands fa-linkedin-in icon"></i>
-          </a>
+        <section class="main-content" id="main-content" aria-live="polite"></section>
 
-          <a href="https://github.com/llima598" target="_blank">
-            <i class="fa-brands fa-github icon"></i>
-          </a>
-       
-       
-    </div>
- </header>
+        <div class="modal" id="modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Detalhes do personagem">
+            <div class="modal-content" id="modal-content"></div>
+        </div>
 
- <div class="main-container">
+        <div class="buttons" aria-label="Paginação">
+            <button id="previous-button" type="button">Anterior</button>
+            <button id="next-button" type="button">Próxima</button>
+        </div>
+    </main>
 
-    <h2>Conheca todos personagens de Star Wars em um so lugar</h2>
-
-    <div class="main-content" id="main-content"></div>
-
-    <div class="modal" id="modal" onclick="hideModal()">
-      <div class="modal-content" id="modal-content"></div>
-
-    </div>
-
-    <div class="buttons">
-     <button id="previous-button" type="button" onclick="previousPage()">
-  Anterior
-    </button>
-
-  <button id="next-button" type="button" onclick="nextPage()">
-  Próxima
-  </button>
-    </div>
-
- </div>
-
- <footer>
-  <p class="footer-logo">Star Wars Characters</p>
-  <p class="copyright">Desenvolvido por &copy; Lucas Lima</p>
-</footer>
+    <footer>
+        <p class="footer-logo">Star Wars Characters</p>
+        <p class="copyright">Desenvolvido por &copy; Lucas Lima</p>
+    </footer>
 
     <script src="https://kit.fontawesome.com/88f19222c0.js" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
