@@ -4,9 +4,7 @@ Catálogo interativo de personagens do universo Star Wars, desenvolvido para pra
 
 ## 🚀 Demo
 
-🔗 **[Acessar o projeto](#)**
-
-> Substitua o link acima pelo endereço do deploy assim que publicar o projeto na Vercel, Netlify ou GitHub Pages.
+🔗 **[Acessar o projeto](https://star-wars-characters-flax.vercel.app)**
 
 ## 📸 Preview
 
@@ -18,12 +16,15 @@ Adicione aqui uma captura de tela ou GIF do projeto em funcionamento.
 - Paginação com 10 personagens por página
 - Modal com detalhes do personagem
 - Tradução e tratamento de dados recebidos da API
-- Layout responsivo
+- Estado de carregamento durante a consulta da API
 - Tratamento de erros durante o consumo da API
+- Layout responsivo
+- Navegação e interações com eventos JavaScript
+- Recursos básicos de acessibilidade com atributos ARIA
 
 ## 🛠️ Tecnologias
 
-- **HTML5** — estrutura semântica
+- **HTML5** — estrutura semântica e acessível
 - **CSS3** — layout, estilos e responsividade
 - **JavaScript** — consumo da API, manipulação do DOM e lógica da aplicação
 - **SWAPI** — API pública de personagens de Star Wars
@@ -31,13 +32,15 @@ Adicione aqui uma captura de tela ou GIF do projeto em funcionamento.
 
 ## 🧠 O que pratiquei
 
-- Consumo de API com `fetch`
+- Consumo de API com `fetch` e `async/await`
 - Tratamento de erros com `try/catch`
-- Manipulação do DOM
-- Renderização dinâmica de elementos
+- Manipulação e renderização dinâmica do DOM
+- Event listeners e interação com elementos
 - Paginação client-side
-- Criação de modal
+- Criação e controle de modal
 - Tratamento e formatação de dados vindos de uma API
+- Estados de carregamento e erro
+- Acessibilidade básica
 - Desenvolvimento responsivo
 
 ## 💻 Como executar localmente
@@ -47,15 +50,13 @@ git clone https://github.com/llima598/Star-Wars-Characters.git
 cd Star-Wars-Characters
 ```
 
-Depois, abra o `index.html` no navegador. Para uma experiência melhor durante o desenvolvimento, utilize a extensão **Live Server** do VS Code.
+Depois, entre na pasta `Star-Wars-Characters`, abra o `index.html` no navegador ou utilize a extensão **Live Server** do VS Code.
 
 ## 🔮 Próximas melhorias
 
 - [ ] Adicionar busca por nome
-- [ ] Adicionar estado de carregamento (loading)
-- [ ] Melhorar a experiência em telas muito pequenas
 - [ ] Adicionar testes automatizados
-- [ ] Publicar uma versão online
+- [ ] Melhorar a experiência em telas muito pequenas
 
 ## 👤 Autor
 
@@ -66,4 +67,4 @@ Depois, abra o `index.html` no navegador. Para uma experiência melhor durante o
 
 ---
 
-Projeto desenvolvido como parte dos meus estudos de desenvolvimento Front-end.
+Projeto desenvolvido como parte dos meus estudos e preparação para uma oportunidade profissional como **Desenvolvedor Front-end Júnior**.
