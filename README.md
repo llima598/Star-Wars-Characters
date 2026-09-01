@@ -8,7 +8,7 @@ Catálogo interativo de personagens do universo Star Wars, desenvolvido para pra
 
 ## 📸 Preview
 
-Adicione aqui uma captura de tela ou GIF do projeto em funcionamento.
+<img width="1366" height="601" alt="Captura de tela 2026-08-27 140546" src="https://github.com/user-attachments/assets/0f46ec95-9f52-4c37-afa4-92b2050599b1" />
 
 ## ✨ Funcionalidades
 
